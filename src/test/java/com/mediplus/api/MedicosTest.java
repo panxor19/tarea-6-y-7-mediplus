@@ -14,8 +14,8 @@ class MedicosTest {
 
     @BeforeAll
     static void configurar() {
-    MockServidor.iniciar();
-    RestAssured.baseURI = "http://localhost:8089";
+        MockServidor.iniciar();
+        RestAssured.baseURI = "http://localhost:8089";
     }
 
     @Test

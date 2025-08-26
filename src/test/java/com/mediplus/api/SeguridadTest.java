@@ -14,8 +14,8 @@ class SeguridadTest {
 
     @BeforeAll
     static void configurar() {
-    MockServidor.iniciar();
-    RestAssured.baseURI = "http://localhost:8089";
+        MockServidor.iniciar();
+        RestAssured.baseURI = "http://localhost:8089";
     }
 
     @Test
@@ -57,7 +57,7 @@ class SeguridadTest {
     @Test
     void postConTokenInvalido() {
         // Simulación: endpoint de creación con token inválido (reqres ignora token, validamos eco de datos)
-    String nuevoPaciente = "{\"nombre\":\"Luis\"}";
+        String nuevoPaciente = "{\"nombre\":\"Luis\"}";
         given()
             .header("Authorization", "Bearer " + tokenInvalido)
             .contentType("application/json")
