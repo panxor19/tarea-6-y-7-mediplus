@@ -1,0 +1,3 @@
+Label,# Samples,Average,Median,90% Line,95% Line,99% Line,Min,Max,Error %,Throughput,Received KB/sec,Sent KB/sec
+GET /pacientes,1395,415,407,525,561,627,217,721,0.000%,23.09297,4.62,3.83
+TOTAL,1395,415,407,525,561,627,217,721,0.000%,23.09297,4.62,3.83

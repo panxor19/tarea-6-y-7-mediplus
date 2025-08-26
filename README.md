@@ -22,7 +22,7 @@
    mvn test-compile exec:java -Dexec.mainClass="com.mediplus.mock.LanzadorMock" -Dexec.classpathScope="test"
    ```
 
-6. Con el servidor mock activo, seguir las instrucciones del archivo [evidencias/EJECUCION.md](evidencias/EJECUCION.md) para ejecutar las pruebas de carga con JMeter desde la terminal.
+6. Con el servidor mock activo, seguir las instrucciones del archivo [evidencias/README.md](evidencias/README.md) para ejecutar las pruebas de carga con JMeter desde la terminal.
 
 ## Estructura del proyecto
 
@@ -31,6 +31,8 @@
 - jmeter/: Scripts de pruebas de carga (.jmx)
 - evidencias/: Capturas y logs de ejecución
 - informe/: Análisis, gráficas y recomendaciones
+
+Para ver el informe de resultados, consulta el archivo [INFORME.md](INFORME.md).
 
 ## Requisitos
 - Java 11+
