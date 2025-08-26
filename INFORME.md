@@ -1,4 +1,4 @@
-# Plantilla de Informe de Pruebas
+# Informe de Pruebas
 
 ## Resumen Ejecutivo
 
